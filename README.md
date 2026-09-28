@@ -16,3 +16,20 @@ Static Next.js portfolio deployed on AWS using Terraform, S3 static hosting, and
 - **Terraform** — all infrastructure defined as code, with remote state in S3 + DynamoDB locking
 
 ## Project Structure
+terraform-portfolio-project/
+├── nextjs-blog/ # Next.js application (client-provided)
+└── terraform-nextjs/ # Terraform infrastructure code
+├── state.tf # Remote state backend (S3 + DynamoDB)
+├── main.tf # AWS provider configuration
+├── s3.tf # S3 bucket, public access, bucket policy
+├── cloudfront.tf # CloudFront distribution
+└── output.tf # Outputs (site URLs)
+
+
+## Video Walkthrough
+
+[hosted on youtube](https://youtu.be/bWnjNHNz4yY)]
+
+## Live Site
+
+Deployed via CloudFront: `[cloudfront_url output value]`

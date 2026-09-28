@@ -28,7 +28,7 @@ terraform-portfolio-project/
 
 ## Video Walkthrough
 
-[hosted on youtube](https://youtu.be/bWnjNHNz4yY)]
+[[Walkthrough video hosted on youtube](https://youtu.be/bWnjNHNz4yY)]
 
 ## Live Site
 

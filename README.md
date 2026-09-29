@@ -30,6 +30,6 @@ terraform-portfolio-project/
 
 [[Walkthrough video hosted on youtube](https://youtu.be/bWnjNHNz4yY)]
 
-## Live Site
+## Live Siteg
 
 Deployed via CloudFront: `[cloudfront_url output value]`
